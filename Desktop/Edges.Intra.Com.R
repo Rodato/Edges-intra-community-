@@ -13,11 +13,11 @@ intra.edges<-function(G,algorithm) {
   #4=cluster_label_prop()
   #5=cluster_fast_greedy()
   #6=cluster_infomap()
-  if(algoritmo==1){
+  if(algorithm==1){
     Mod<-cluster_louvain(G)}
-  if(algoritmo==2){
+  if(algorithm==2){
     Mod<-cluster_edge_betweenness(G)}
-  if(algoritmo==3){
+  if(algorithm==3){
     Mod<-cluster_walktrap(G)}
   if(algorithm==4){
     Mod<-cluster_label_prop(G)}
