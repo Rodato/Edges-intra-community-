@@ -1,6 +1,7 @@
 ##This function calculates all the edges of every community in an igraph object.
 #It implements a number for each algorithm. You can add another algorithms. 
 
+library("igraph")
 
 intra.edges<-function(G,algorithm) {
   ##Arg:
