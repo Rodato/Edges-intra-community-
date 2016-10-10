@@ -1,6 +1,9 @@
 ##This function calculates the probability distribution of a graph. You can set change the mode of the edges to "out", 
 #"in", "all".
 
+
+library("igraph")
+
 DG<-function(G,m){
   #We estimate the degree and degree distribution
   #Keep in mind: m=1 for mode "out", m=2 for mode "in", m=3 for mode "all".
