@@ -1,4 +1,4 @@
-##This function calculates all the edges of every community in an igraph object.
+##This function calculates all the edges intra-community of each community in an igraph object.
 #It implements a number for each algorithm. You can add another algorithms. 
 
 library("igraph")
