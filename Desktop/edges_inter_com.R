@@ -41,6 +41,6 @@ Inter.edges<-function(G,algorithm){
     #depu<-e.esum/2
     inter[i]<-e.esum
   }
-  mods.ed<-data.frame(Com,vert)
+  mods.ed<-data.frame(Com,inter)
   print(mods.ed)
 }
